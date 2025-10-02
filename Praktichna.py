@@ -17,6 +17,7 @@ img2 = cv.imread('photos/frame.png')
 img2 = cv.resize(img2, (75,75))
 img[240:240+img2.shape[0], 480:480+img2.shape[1]] = img2
 
+cv.imwrite("business_card.png", img)
 cv.imshow('image',img)
 cv.waitKey(0)
 cv.destroyAllWindows()
