@@ -1,4 +1,3 @@
-import cv2
 import cv2 as cv
 import numpy as np
 
@@ -32,4 +31,5 @@ for cnt in contours:
 # cv.imshow('woman_copy', img_copy)
 cv.imshow('copy', img_copy_color)
 cv.waitKey(0)
+
 cv.destroyAllWindows()
