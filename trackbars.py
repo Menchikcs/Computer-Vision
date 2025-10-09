@@ -4,7 +4,7 @@ import numpy as np
 def nothing(x):
     pass
 
-img = cv2.imread("images/woman.jpg")
+img = cv2.imread("images/raccoon.jpg")
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 cv2.namedWindow("Trackbars")
@@ -36,3 +36,4 @@ while True:
         break
 
 cv2.destroyAllWindows()
+
