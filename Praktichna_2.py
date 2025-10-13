@@ -1,5 +1,3 @@
-from xxsubtype import bench
-
 import cv2 as cv
 import numpy as np
 
@@ -91,4 +89,5 @@ for cnt in contours:
 cv.imwrite("result.jpg", img_copy)
 cv.imshow('mask', img_copy)
 cv.waitKey(0)
+
 cv.destroyAllWindows()
